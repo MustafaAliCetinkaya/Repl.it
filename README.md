@@ -1,20 +1,16 @@
-### Five friends are going to the theater. They have purchased a row of five seats with an aisle on either end.
+### We will calculate someones age based on the current year and the birth year
 
-#### 5 `String` variables are already declared with their names. These are the preferences of where the friends want to sit:
+#### Given two `int` variables `currentYear` and `birthYear` calculate and print out the age in the following format:
 
-- James doesn't want to sit next to Jill
-- Betty and Herb are dating and want to sit next to each other
-- Bob wants to sit on the left side aisle
-- James wants to sit an aisle seat
+> Your age is $age
 
-#### Construct and print the seating order following the friends' preferences. Separate the names with commas and a space
+```
+Ex:
 
-**Hint:** Use the name variables and concatenation 
+  if currentYear is 2014
+  and birthYear is 2000
 
-Main topics: print statement, variables, concatenation, problem solving
+  Your age is 14
+```
 
-An example of an invalid seating order is:
-
-- `James, Betty, Herb, Bob, Jill`
-
-The above arrangement is invalid because: Bob is not sitting on left aisle.
+Main topics: variables, primitive datatypes, operators
