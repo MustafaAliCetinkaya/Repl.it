@@ -1,16 +1,24 @@
-### We will calculate someones age based on the current year and the birth year
+### Given two cities, `miles between the cities`, and a `base ticket price`, and `rate` calculate the ticket price.
 
-#### Given two `int` variables `currentYear` and `birthYear` calculate and print out the age in the following format:
+#### Formula for price: `base price + miles between cities / rate`
 
-> Your age is $age
+#### Display the details in the following format:
 
 ```
+	The ticket price from Chicago to Virginia is $dollarAmount
+```
 Ex:
+```
+	city 1 -> Chicago
+	city 2 -> Virginia
+	base ticket price -> 110.50
+	miles between cities -> 739.8
+  rate: 10
 
-  if currentYear is 2014
-  and birthYear is 2000
-
-  Your age is 14
+  Output:
+    The ticket price from Chicago to Virginia is $184.48
 ```
 
 Main topics: variables, primitive datatypes, operators
+
+```
