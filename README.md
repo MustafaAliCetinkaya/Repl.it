@@ -1,36 +1,34 @@
-### Use `String methods` to divide the given `email` into separate parts. The email will always be in this format:
+### Alejandro has many emails, but only has time to read a few of them. Help him sort his inbox by checking the given `email` variable for his name and for the word 'project'. Use the following requirements to help Alejandro:
 
-#### firstName_lastName@domain.com
+> - If the email has his name and the word 'project' print: `priority`
+> - If the email has only his name, but not the word 'project' print: `read`
+> - If the email does not have his name print: `don't read`
 
-Pull apart and print the first name, last name, and domain. When printing the values all three should be in proper capitalization format - The first letter of each word is uppercase and the rest are lowercase. Output in the following format:
+#### Note: Case sensitivity for his name doesn't matter, we always want to read the email if his name is there, but there is no difference between the uppercase or lowercase letter. This must be handling by your filtering.
 
-```
-First name: $first name
-Last name: $last name
-Domain: $domain
-```
-
-#### Hint: Think about how to use substring and indexOf together
-
-Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation
+Main topics: String manipulation, Scanner, methods, primitive datatypes, concatenation, if statements, operators
 
 ```
 Ex:
   Input:
-    jeff_bezos@amazon.us
+    dear Alejandro.....a lot of text
 
   Output:
-    First name: Jeff
-    Last name: Bezos
-    Domain: Amazon
+    read
 ```
 ```
 Ex:
   Input:
-    sergey_brin@gmail.com
+    thunder blaz is the best drink in the galaxy...
 
   Output:
-    First name: Sergey
-    Last name: Brin
-    Domain: Gmail
+    don't read
+```
+```
+Ex:
+  Input:
+    subject : important project, alejandro we need you for this...
+
+  Output:
+    priority
 ```
