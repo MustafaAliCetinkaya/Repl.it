@@ -4,18 +4,19 @@ public class Main {
   public static void main(String[] args) {
     //DO NOT TOUCH FOLLOWING LINE/LINES
     Scanner scan = new Scanner(System.in);
-    String str = scan.nextLine();
+    String email = scan.next();
     
     //WRITE YOUR CODE BELOW
-    int howMany=0;
-    String hi="hi";
+    int underScore=email.indexOf('_');
+    int at=email.indexOf('@');
+    int dot=email.indexOf('.');
 
-for (int i=0; i<=str.length()-2; i++){
-  String each=str.substring(i,i+2);
-  if(each.equals(hi))
-  howMany++;
-}
-System.out.println(howMany);
+     System.out.println("First name: "+email.substring(0,underScore).substring(0, 1).toUpperCase()+email.substring(1,underScore));
+    System.out.println("Last name: "+email.substring(underScore+1,at).substring(0, 1).toUpperCase()+email.substring(underScore+2,at));
+    System.out.println("Domain: "+email.substring(at+1,dot).substring(0, 1).toUpperCase()+email.substring(at+2,dot));
+
+
+
     
   }
 }

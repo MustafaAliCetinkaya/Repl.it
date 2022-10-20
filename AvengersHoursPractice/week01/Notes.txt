@@ -1,0 +1,55 @@
+
+Topics:
+    1. Type Casting
+
+        a. Implicit Casting
+                Done by compiler/Machine/computer
+                smaller to bigger data type
+                NO Data loss
+        b. Explicit Casting
+                There is Data Loss
+                Done by developer/human/tester/coder
+                bigger to smaller data type
+                NARROWING
+
+    2.  String Methods:
+
+        charAt(); index and you get in return-> char
+        length() : no parameter -> how many chars in the String
+        replace():
+        replaceFirst()
+        trim()
+        substring
+        lastIndexOf()
+        contains()
+        equals()
+        endsWith()
+        isEmpty()
+        isBlank()
+        toUppercase()
+        toLowercase()
+
+
+TASK: Create a blueprint Class that will have one attribute which is string
+       - actions (void methods): manupilate your attribute String
+
+Dot Operator : objectName.  to call attribute and methods
+
+Inside our blueprint class we will add return type method
+
+     * return a  new string made of
+     * 3 copies of the last 2 chars of the original string.
+     * The string length will be at least 2.
+    exp: java-> vavava
+
+
+ When you get a question that asks for a product
+ *** Product:
+        - a reversed string
+        - unique chars
+        - frequency of chars
+        - duplicate chars
+
+   --- Easy Approach : create an empty bucket (box) -- String, Array
+            will hold my result
+            require an iteration
