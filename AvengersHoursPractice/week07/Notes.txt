@@ -1,0 +1,31 @@
+Control Flow Statements in JAVA
+Decision Making Statements : if, if else, nested if, switch
+Looping Statements:
+        for loops
+
+     * while : repeated if statement
+            if(condition) // true {
+            statement --->executed one time
+            }
+          while (condition) // true
+         {
+         statement // executed multiple times
+         }
+        do while
+        nested loops
+            for each cycle of outer loop, inner loop completes each time
+            * for reading data from excel sheets, multi-D arrays, when you have column or rows in your data
+                outer loop:  one year            : ROW
+                inner loop:  each day (365 days) : COLUMN
+Branching Statements :
+    break     : this one breaks the loop
+    continue : this one skips following steps in the loop
+    return
+
+Example Order:
+WhileHungry
+RandomPassword
+FrequencyOfCharacters
+Task01
+Task02
+
