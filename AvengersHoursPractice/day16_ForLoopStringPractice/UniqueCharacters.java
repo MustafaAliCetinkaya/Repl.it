@@ -16,9 +16,7 @@ public class UniqueCharacters {
             if(str.indexOf(ch) == str.lastIndexOf(ch)){ //if the first and last index numbers of the character are same, then the character is unique
                 result += ch;
             }
-
         }
-
 
         System.out.println(result);
 
